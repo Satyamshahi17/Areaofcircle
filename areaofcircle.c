@@ -5,7 +5,7 @@ double eddistance(int x1, int x2, int y1, int y2)
 {
     double a = pow(x1 - x2, 2) + pow(y1 - y2, 2);
     double x = sqrt(a); 
-    return x;
+    return x; // x = distance between the coordinates (x1,y1) and (x2,y2)
 }
 void areacir(int x1, int x2, int y1, int y2, double (*fptr)(int, int, int, int))
 {
